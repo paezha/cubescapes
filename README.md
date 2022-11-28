@@ -8,10 +8,10 @@
 
 Cubes! Cubes in a cubescape.
 
-I use these package:
+I use these packages:
 
 ``` r
-library(dplyr)
+library(dplyr) # A Grammar of Data Manipulation
 #> 
 #> Attaching package: 'dplyr'
 #> The following objects are masked from 'package:stats':
@@ -20,15 +20,15 @@ library(dplyr)
 #> The following objects are masked from 'package:base':
 #> 
 #>     intersect, setdiff, setequal, union
-library(ggplot2)
-library(glue)
-library(MetBrewer)
-library(MexBrewer)
+library(ggplot2) # Create Elegant Data Visualisations Using the Grammar of Graphics
+library(glue) # Interpreted String Literals
+library(MetBrewer) # Color Palettes Inspired by Works at the Metropolitan Museum of Art
+library(MexBrewer) # Color Palettes Inspired by Works of Mexican Muralists
 #> Registered S3 method overwritten by 'MexBrewer':
 #>   method        from     
 #>   print.palette MetBrewer
-library(purrr)
-library(sf)
+library(purrr) # Functional Programming Tools
+library(sf) # Simple Features for R
 #> Linking to GEOS 3.9.1, GDAL 3.4.3, PROJ 7.2.1; sf_use_s2() is TRUE
 ```
 
@@ -316,4 +316,4 @@ ggsave(glue("outputs/cubescape-{seed}.png"),
 #> Saving 7 x 8 in image
 ```
 
-![](outputs/cubescape-27641507.png)<!-- -->
+![](outputs/cubescape-42504115.png)<!-- -->

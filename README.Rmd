@@ -18,15 +18,15 @@ knitr::opts_chunk$set(
 
 Cubes! Cubes in a cubescape.
 
-I use these package:
+I use these packages:
 ```{r setup}
-library(dplyr)
-library(ggplot2)
-library(glue)
-library(MetBrewer)
-library(MexBrewer)
-library(purrr)
-library(sf)
+library(dplyr) # A Grammar of Data Manipulation
+library(ggplot2) # Create Elegant Data Visualisations Using the Grammar of Graphics
+library(glue) # Interpreted String Literals
+library(MetBrewer) # Color Palettes Inspired by Works at the Metropolitan Museum of Art
+library(MexBrewer) # Color Palettes Inspired by Works of Mexican Muralists
+library(purrr) # Functional Programming Tools
+library(sf) # Simple Features for R
 ```
 
 Create a function to generate the faces of an isometric cube "up" direction:
@@ -291,6 +291,7 @@ ggsave(glue("outputs/cubescape-{seed}.png"),
 # Display image
 knitr::include_graphics(glue("outputs/cubescape-{seed}.png"))
 ```
+
 
 
 
