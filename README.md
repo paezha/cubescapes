@@ -316,4 +316,4 @@ ggsave(glue("outputs/cubescape-{seed}.png"),
 #> Saving 7 x 8 in image
 ```
 
-<img src="outputs/cubescape-14551356.png" width="500px" />
+<img src="outputs/cubescape-25060994.png" width="500px" />
